@@ -15,7 +15,6 @@ html,body
     width: 100%;
     background: url(assets/services_icons/backgrounds/h_img.jpg);
     background-size: cover;
-    display: flex;
     justify-content: center;
     align-content: center
 
