@@ -9,109 +9,19 @@ html,body
     line-height: 1.6rem
 }
 
-#home
-{
-    height: 100vh;
-    width: 100%;
-    background: url("assets/services_icons/backgrounds/h_img.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    align-content: center
 
-}
- h3{
-    height: 4px;
-    font-weight: bold;
-    font-size: large; 
-}
-
-#home div
-{
-    max-width: 960px;
-    height: 100%;
-    text-align: center;
-
-    color: white;
-
-    display: grid;
-    grid-template-rows: 2fr 2fr 1fr 1fr;
-    align-items: center
-}
-h4{
-    text-align: center;
-}
-
-#home div img:first-child
-{
-    width: 50px;
-    align-self:end;
-    justify-self: center;
-
-    margin-bottom: 2rem;
-}
-
-#home div img:last-child
-{
-    width: 20px;
-    align-self:center;
-    justify-self: center
-}
-
-.welcome
-{
-    font-size: 4rem;
-    
-}
-.tag-line
-{
-   align-self: start
-}
-.mouse-click
-{
-    cursor: pointer;
-}
-
-/* about us */
-
-#about-us
-{
-    background: #EFF0E0;
+.fo{
+    font-size: smaller;
 }
 
 .about-us-text
 {
-    width: 30%;
-    margin: 0 auto;
     text-align: center;
-
-    padding-bottom: 2rem;
     color: #3c3c3c;
-    display: grid;
-    grid-template-rows: repeat(3,1fr);
-    align-items: center
 }
 
 /* services */
-#services
-{
-    background: url("../assets/backgrounds/s_image.jpg") center center/cover no-repeat;
-    color: white
-}
 
-.services-text
-{
-    width: 30%;
-    height: 100%;
-    margin: 0 auto;
-    text-align: center;
-
-    padding-bottom: 2rem;
-
-    display: grid;
-    grid-template-rows: repeat(3,1fr);
-    align-items: center
-}
 
 /*What we do */
 
@@ -214,7 +124,8 @@ h4{
 #contact-us
 {
     height: 50vh;
-    background: url("../assets/backgrounds/c_image.jpg") center center/cover no-repeat;
+    background: url("css/c_image.jpg") center center/cover no-repeat;
+    background-size: cover;
 }
 
 #contact-us h1
@@ -258,7 +169,7 @@ h4{
     padding: 0.5rem 1rem;
     box-sizing:border-box;
     width: 100%;
-    height: 20vh;
+    height: 100vh;
     background: transparent;
     color: white;
     border: 2px solid white
