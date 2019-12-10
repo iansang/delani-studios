@@ -20,6 +20,11 @@ html,body
     align-content: center
 
 }
+ h3{
+    height: 4px;
+    font-weight: bold;
+    font-size: large; 
+}
 
 #home div
 {
@@ -32,6 +37,9 @@ html,body
     display: grid;
     grid-template-rows: 2fr 2fr 1fr 1fr;
     align-items: center
+}
+h4{
+    text-align: center;
 }
 
 #home div img:first-child
