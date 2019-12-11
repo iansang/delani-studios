@@ -121,63 +121,14 @@ html,body
 
 
 /* contact us */
-#contact-us
-{
-    height: 50vh;
-    background: url("css/c_image.jpg") center center/cover no-repeat;
+#contactus{
+    background-image: url("css/c_image.jpg");
     background-size: cover;
-}
-
-#contact-us h1
-{
+    background-repeat: no-repeat;
+    background-position: fixed;
+    width: 100%;
     text-align: center;
-    color: white;
     padding-top: 2rem
-}
-
-.contact
-{
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-.contact div
-{
-    width: 100%;
-    display: flex;
-    justify-content: space-between
-}
-
-.contact div input
-{
-    height: 2rem;
-    width: 30%;
-    background: transparent;
-    padding: 0 1rem;
-    color: white;
-    border: 2px solid white
-}
-
-.contact div input::placeholder
-{
-    color: white;
-}
-
-.contact textarea
-{
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    box-sizing:border-box;
-    width: 100%;
-    height: 100vh;
-    background: transparent;
-    color: white;
-    border: 2px solid white
-}
-
-.contact textarea::placeholder
-{
-    color: white;
 }
 
 /*footer */
